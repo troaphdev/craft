@@ -108,9 +108,9 @@ let selectedHotbarIndex = 0; // Start with the first slot (index 0)
 
 // --- Texture Loading --- //
 const textureLoader = new THREE.TextureLoader();
-const handTexture = textureLoader.load('/hand.webp');
+const handTexture = textureLoader.load('hand.webp');
 handTexture.colorSpace = THREE.SRGBColorSpace; // Ensure correct color
-const pickaxeTexture = textureLoader.load('/pickaxe_holding.png');
+const pickaxeTexture = textureLoader.load('pickaxe_holding.png');
 pickaxeTexture.colorSpace = THREE.SRGBColorSpace; // Ensure correct color
 
 // --- Hand/Item Sprite --- //
