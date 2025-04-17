@@ -1,7 +1,7 @@
-import * as THREE from 'https://cdn.skypack.dev/three@0.150.1';
+import * as THREE from 'https://esm.sh/three@0.150.1';
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'; // Remove OrbitControls
-import { PointerLockControls } from 'https://cdn.skypack.dev/three@0.150.1/examples/jsm/controls/PointerLockControls.js';
-import { createNoise3D } from 'https://cdn.skypack.dev/simplex-noise@4.0.1'; // Use CDN link for simplex-noise
+import { PointerLockControls } from 'https://esm.sh/three@0.150.1/examples/jsm/controls/PointerLockControls.js';
+import { createNoise3D } from 'https://esm.sh/simplex-noise@4.0.1'; // Use CDN link for simplex-noise
 
 // --- Constants ---
 const CHUNK_SIZE_X = 16;
